@@ -2,10 +2,7 @@ pipeline {
     agent {
         label "windows"
     }
-    tools {
-        maven 'Maven3.1.1'
-        jdk 'java8'
-    }
+   
     stages {
         stage ('Initialize') {
             steps {
